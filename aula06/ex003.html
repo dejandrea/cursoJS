@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro JS</title>
+    <style>
+        body{
+            background-color: rgb(106, 174, 201);
+            color: cornsilk;
+            font: normal 20pt Arial;
+        }
+        h1{
+            /*comentário em css*/
+            color: crimson;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>teste</p>
+    <!--Comentário em html-->
+
+    <script>
+        var n1 = Number(window.prompt('Digite um número:'))//convertendo para number
+        var n2 = Number(window.prompt('Digite outro número:'))
+        var soma = n1 + n2
+        //CONCATENANDO
+        window.alert("A soma dos valores é," + soma)
+
+        var nome = String(window.prompt("Digite seu nome:"))//convertendo para string
+        var apelido = window.prompt("Digite seu apelido:")
+        apelido.toString //convertendo para string
+        var idade = window.prompt("digite sua idade:")
+        var nota = window.prompt("Digite sua nota:")
+        //EXEMPLO DE CONCATENAÇÃO COM PLACE HOLDER
+        window.alert(`A aluna ${nome}, também conhecida como ${apelido} de ${idade} anos de idade tirou a nota ${nota}`)
+
+    </script>
+</body>
+</html>
