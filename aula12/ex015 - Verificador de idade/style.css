@@ -19,3 +19,8 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+#verificar{
+    border-radius: 15px;
+    background-color: rgba(0, 225, 255, 0.925);
+}
