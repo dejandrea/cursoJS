@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+
+    <section>
+        <div id="dados">
+            <p>
+                <label for="numIni">Número Inicial</label>
+                <input type="number" name="numIni" id="numIni">
+            </p>
+            <p>
+                <label for="numFin">Número Final</label>
+                <input type="number" name="numFin" id="numFin">
+            </p>
+            <p>
+                <label for="Interval">Intervalo:</label>
+                <input type="number" name="Interval" id="interval">
+            </p>
+            <p>
+                <input type="button" name="Enviar" id="Enviar" value="Enviar" onclick="contar()">
+            </p>
+        </div>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>Curso em vídeo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
